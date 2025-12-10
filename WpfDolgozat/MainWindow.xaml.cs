@@ -20,5 +20,15 @@ namespace WpfDolgozat
         {
             InitializeComponent();
         }
+
+        private void Hozzaadas(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Torles(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
