@@ -24,7 +24,7 @@
         </StackPanel>
         <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="10">
             <Button Content="Hozzáadás" Click="Hozzaadas" Width="80" Margin="5" Padding="5"/>
-            <Button Content="Törlés" Click="Torles" Width="80" Margin="5" Padding="5"/>
+            <Button Content="Mentés" Click="Mentes" Width="80" Margin="5" Padding="5"/>
         </StackPanel>
     </Grid>
 </Window>
