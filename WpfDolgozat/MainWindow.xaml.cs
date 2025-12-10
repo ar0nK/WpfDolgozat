@@ -67,7 +67,12 @@ namespace WpfDolgozat
 
         private void Mentes(object sender, RoutedEventArgs e)
         {
-
+            string menteni = "";
+            foreach (var d in dolgozatok)
+            {
+                menteni += d.Nev + ";" + d.Eletkor + ";" + d.Pontszam + "\n";
+            }
+            File.WriteAllText("dolgozatok.txt",menteni);
         }
     }
 }
